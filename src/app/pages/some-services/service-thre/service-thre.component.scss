@@ -1,0 +1,53 @@
+.servicio3{
+  margin-top: -10rem;
+  background-image: url(../../../../assets/images/servicio3.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  overflow: hidden;
+  main{
+    height: 100rem;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  padding-top: 18rem;
+  text-align: center;
+   img{
+      position: relative;
+    }
+    h1{
+      position: relative;
+      margin-top: 2rem;
+      font-size:3rem;
+      font-weight: bolder;
+      color: white;
+    }
+  }
+  main::before {
+	content:'';
+	position: absolute;
+  top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(253, 251, 251, 0.3);
+}
+}
+.content--servicio3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background:  rgba(254, 239, 232, 0.9);
+  main{
+    img{
+      width: 100%;
+    }
+    width: 55%;
+    h2{
+      font-size: 2.5rem;
+    }
+
+    P{
+      margin: 7rem 0;
+    }
+  }
+}

@@ -1,0 +1,70 @@
+nav{
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 1rem 8rem 1rem 8rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 100;
+  background: rgb(17, 16, 16,0.35);
+  ul{
+    display: flex;
+    list-style: none;
+    align-items:center;
+    li{
+      margin-right: 2rem;
+      a{
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: white;
+        transition: 300ms all;
+      }
+      a:hover{
+        cursor: pointer;
+        color: orange;
+      }
+      button{
+          width:8.7rem;
+          height:2.7rem;
+          font-size: 1rem;
+          color: white;
+          background: linear-gradient(90deg, #e78535 10%, #f6760d9c 95%);
+          cursor: pointer;
+          font-weight: 600;
+          border-radius: 10px;
+          border: none;
+          transition: 200ms all;
+      }
+      button:hover{
+        color: rgb(236, 226, 207);
+      }
+      .nav--services{
+        background: rgb(26, 23, 23,0.3);
+        margin-top: 15px;
+        width: 10rem;
+        padding: 0.5rem;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        display: block;
+        color: white;
+        position: absolute;
+        li{
+          padding: 0.5rem;
+          a{
+            cursor: pointer;
+          }
+        }
+      }
+    }
+      .encendido{
+      .nav--services{
+        display: none;
+      }
+    }
+  }
+}
+@media screen and (min-width:1400px) {
+  nav{
+    padding: 1rem 17rem;
+  }
+}

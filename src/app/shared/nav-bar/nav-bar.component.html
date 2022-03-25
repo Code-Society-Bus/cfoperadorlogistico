@@ -1,0 +1,19 @@
+<nav>
+  <ul>
+    <li><img src="../../../assets/images/logo.svg" alt=""></li>
+  </ul>
+  <ul>
+    <li><a [routerLink]="['/home']">Home</a></li>
+    <li><a [routerLink]="['/about']">Nosotros</a></li>
+    <li [ngClass]="{'encendido':activar == true}" (click)="apagar()"><a >Servicios</a>
+      <ul class="nav--services" >
+        <li> <a [routerLink]="['/service1']">Servicio uno</a> </li>
+        <li> <a [routerLink]="['/service2']">Servicio dos</a> </li>
+        <li> <a [routerLink]="['/service3']">Servicio tres</a> </li>
+      </ul>
+    </li>
+    <li><a [routerLink]="['/fleet']">Flota</a></li>
+    <li><a [routerLink]="['/contact']">Contacto</a></li>
+    <li> <button [routerLink]="['/tracking']" >Traking</button> </li>
+  </ul>
+</nav>
