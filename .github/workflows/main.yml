@@ -34,6 +34,6 @@ jobs:
         server: ftp.codesociety.dev
         username: ${{ secrets.user_deploy }}
         password: ${{ secrets.pwd_deploy }}
-        local-dir: ./dist/
+        local-dir: ./dist/transport/
         server-dir: /cflogistic.codesociety.dev/
         port: 21
