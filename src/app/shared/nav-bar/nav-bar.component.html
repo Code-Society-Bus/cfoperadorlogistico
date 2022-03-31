@@ -2,11 +2,11 @@
   <ul>
     <li><img src="../../../assets/images/logo.svg" alt=""></li>
   </ul>
-  <ul>
+  <ul class="menu-items" [ngClass]="{'menu--mostrar':actmenu == false}" (click)="activarmenu()">
     <li><a [routerLink]="['/home']">Home</a></li>
     <li><a [routerLink]="['/about']">Nosotros</a></li>
-    <li [ngClass]="{'encendido':activar == true}" (click)="apagar()"><a >Servicios</a>
-      <ul class="nav--services" >
+    <li [ngClass]="{'encendido':activar == true}"(click)="activarmenu()" (click)="apagar()" id="servicios"><a>Servicios</a>
+        <ul class="nav--services" (click)="activarmenu()">
         <li> <a [routerLink]="['/service1']">Servicio uno</a> </li>
         <li> <a [routerLink]="['/service2']">Servicio dos</a> </li>
         <li> <a [routerLink]="['/service3']">Servicio tres</a> </li>
@@ -16,4 +16,7 @@
     <li><a [routerLink]="['/contact']">Contacto</a></li>
     <li> <button [routerLink]="['/tracking']" >Traking</button> </li>
   </ul>
+  <span class="btn-menu"(click)="activarmenu()">
+      <i class="fas fa-bars" ></i>
+  </span>
 </nav>

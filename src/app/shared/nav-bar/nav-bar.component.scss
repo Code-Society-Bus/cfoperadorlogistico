@@ -7,6 +7,15 @@ nav{
   position: relative;
   z-index: 100;
   background: rgb(17, 16, 16,0.35);
+  .btn-menu{
+    display: none !important;
+    align-items: center;
+    svg{
+      color: black;
+      height: 25px;
+              cursor: pointer;
+    }
+  }
   ul{
     display: flex;
     list-style: none;
@@ -62,9 +71,48 @@ nav{
       }
     }
   }
+  .menu--mostrar{
+    left: 0;
+    top: 100% !important;
+  }
 }
 @media screen and (min-width:1400px) {
   nav{
     padding: 1rem 17rem;
   }
 }
+@media screen and (max-width:860px) {
+  nav{
+      padding: 1rem 3rem 1rem 3rem;
+      img{
+        width:85px;
+      }
+    .btn-menu{
+      display: inline-flex !important;
+    }
+  .menu-items{
+      position: fixed;
+      width: 100%;
+      background: rgb(7, 7, 7,0.6);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      left: 0;
+      top: -150vh;
+      text-align: center;
+      transition: all .5s;
+      flex-direction: column;
+      padding-bottom: 25px;
+      li{
+        padding: 20px 0;
+        text-transform: uppercase;
+      }
+      .nav--services{
+        width: 15rem !important;
+        li{
+          padding: 15px 0 ;
+        }
+      }
+  }
+  }
+}
+

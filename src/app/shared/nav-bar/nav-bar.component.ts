@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavBarComponent implements OnInit {
 
-  activar:Boolean = true
+  activar: Boolean = true
+  actmenu: Boolean = true
+
   constructor() { }
 
   ngOnInit(): void {
@@ -16,4 +18,9 @@ export class NavBarComponent implements OnInit {
     this.activar =
       !this.activar;
   }
+
+  activarmenu() {
+    this.actmenu = !this.actmenu;
+  }
+
 }

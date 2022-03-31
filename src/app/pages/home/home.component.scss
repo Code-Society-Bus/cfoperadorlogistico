@@ -206,3 +206,56 @@
     }
   }
 }
+
+@media screen and (max-width:860px){
+  .nosotros{
+    article{
+      margin-right: 0;
+      text-align: center;
+    }
+    img{
+      display: none;
+    }
+  }
+  .servicio{
+    main{
+      article{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      div{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+        img{
+          margin-bottom: 1rem !important;
+          width: 15%;
+        }
+        p{
+          width:80%;
+          margin-bottom: 2rem !important;
+        }
+      }
+      }
+            button{
+      margin-right:0;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width:500px){
+  .servicio{
+    main{
+      text-align: center;
+      button{
+      margin-right:0;
+      }
+    }
+    img{
+      display: none;
+    }
+  }
+}
