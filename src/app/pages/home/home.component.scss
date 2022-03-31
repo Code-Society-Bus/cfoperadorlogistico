@@ -208,13 +208,42 @@
 }
 
 @media screen and (max-width:860px){
+  .banner{
+      height: 50rem;
+    .banner--content{
+      .banner--info{
+        width:18rem;
+        height:18rem;
+        article{
+        margin-top: 3rem;
+        h2{
+          font-size: 1.4rem;
+        }
+        p{
+          margin-top: 1rem;
+          font-size: 0.9rem;
+        }
+        }
+      }
+    }
+  }
   .nosotros{
+    padding: 2rem 5rem;
     article{
       margin-right: 0;
       text-align: center;
+      h2{
+        font-size: 3rem;
+      }
+      p{
+        font-size: 1rem;
+      }
     }
     img{
       display: none;
+    }
+    button{
+      font-size: 1.1rem;
     }
   }
   .servicio{
@@ -233,6 +262,7 @@
           width: 15%;
         }
         p{
+          font-size: 1rem;
           width:80%;
           margin-bottom: 2rem !important;
         }
@@ -243,7 +273,29 @@
       }
     }
   }
-
+  .clientes{
+    div{
+      h3{
+        font-size: 4rem;
+      }
+      p{
+        font-size: 1.5rem;
+      }
+    }
+      .clientes--midle{
+    margin: 0 3rem;
+  }
+  }
+  .flota{
+  padding: 5rem 0;
+  p{
+     width: 80%;
+     font-size: 0.9rem;
+  }
+  img{
+    width: 100%;
+  }
+  }
 }
 
 @media screen and (max-width:500px){
@@ -257,5 +309,18 @@
     img{
       display: none;
     }
+  }
+  .clientes{
+    div{
+      h3{
+        font-size: 3rem;
+      }
+      p{
+        font-size: 1rem;
+      }
+    }
+      .clientes--midle{
+    margin: 0 3rem;
+  }
   }
 }

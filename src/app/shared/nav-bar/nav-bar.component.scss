@@ -115,4 +115,11 @@ nav{
   }
   }
 }
+@media screen and (max-width:500px) {
+ nav{
+      img{
+        width:70px;
+      }
+    }
+}
 

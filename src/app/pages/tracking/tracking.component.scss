@@ -81,3 +81,45 @@
     cursor: pointer;
   }
 }
+
+
+
+@media screen and (max-width:860px){
+  .tracking{
+        height: 30rem;
+        main{
+          padding-top: 13rem;
+          img{
+            width: 7.5rem;
+          }
+          h1{
+            font-size: 2.3rem;
+          }
+        }
+
+      }
+  .content--tracking{
+      main{
+      flex-direction: column;
+      justify-content: left;
+      width: 80%;
+      input{
+        width: 95%;
+      }
+      h3{
+        font-size: 1.3rem;
+      }
+      p{
+        font-size: 0.9rem;
+      }
+    .n-tracking{margin-right: 0rem; margin-left:5%;}
+    .fecha{
+      margin-top: 1.5rem;
+      margin-left:5%;
+    }
+    }
+  }
+
+}
+
+
