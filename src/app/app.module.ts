@@ -15,6 +15,7 @@ import { FormsModule } from '@angular/forms';
 import { ServiceOneComponent } from './pages/some-services/service-one/service-one.component';
 import { ServiceTwoComponent } from './pages/some-services/service-two/service-two.component';
 import { ServiceThreComponent } from './pages/some-services/service-thre/service-thre.component';
+import { HomeServiceComponent } from './pages/home/home-service/home-service.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { ServiceThreComponent } from './pages/some-services/service-thre/service
     ServiceOneComponent,
     ServiceTwoComponent,
     ServiceThreComponent,
+    HomeServiceComponent,
   ],
   imports: [
     BrowserModule,

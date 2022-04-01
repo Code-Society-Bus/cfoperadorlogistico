@@ -1,0 +1,95 @@
+.servicio{
+  background-image: url(../../../../assets/images/servicios.svg);
+  background-size: cover;
+  main{
+    backdrop-filter: blur(3px);
+    text-align: right;
+    padding-bottom: 3rem;
+    h2{
+      text-align: center;
+      color: white;
+      font-size: 2.5rem;
+      padding: 7.5rem 0 6rem 0;
+    }
+    article{
+      display: flex;
+      justify-content: center;
+      div{
+        flex-basis: 20%;
+        text-align: center;
+        img{
+          margin-bottom: 3rem;
+        }
+        p{
+          margin: 0 2rem;
+          color: white;
+          font-weight: lighter;
+          font-size: 1.2rem;
+        }
+      }
+    }
+    button{
+      margin-top: 1rem;
+      cursor: pointer;
+      margin-right: 21%;
+      width: 7rem;
+      height: 2.5rem;
+      font-size: 1.1rem;
+      border: 3px solid white;
+      background: transparent;
+      color: white;
+      border-radius: 10px;
+    }
+
+  }
+
+}
+
+
+
+
+@media screen and (max-width:860px){
+
+.servicio{
+    main{
+      article{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      div{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+        img{
+          margin-bottom: 1rem !important;
+          width: 15%;
+        }
+        p{
+          font-size: 1rem;
+          width:80%;
+          margin-bottom: 2rem !important;
+        }
+      }
+      }
+            button{
+      margin-right:0;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width:500px){
+  .servicio{
+    main{
+      text-align: center;
+      button{
+      margin-right:0;
+      }
+    }
+    img{
+      display: none;
+    }
+  }
+}
