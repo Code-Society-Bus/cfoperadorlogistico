@@ -7,6 +7,9 @@ nav{
   position: relative;
   z-index: 100;
   background: rgb(17, 16, 16,0.35);
+        img{
+        cursor: pointer;
+      }
   .btn-menu{
     display: none !important;
     align-items: center;
