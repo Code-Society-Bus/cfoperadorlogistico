@@ -228,13 +228,21 @@
 }
 
 @media screen and (max-width:500px){
+  .nosotros{
+    padding: 2rem 2rem;
+    article{
+      p{
+        font-size: 0.93rem;
+      }
+    }
+  }
   .clientes{
     div{
       h3{
         font-size: 3rem;
       }
       p{
-        font-size: 1rem;
+        font-size: 0.95rem;
       }
     }
       .clientes--midle{

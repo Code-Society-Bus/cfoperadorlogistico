@@ -6,38 +6,71 @@ footer{
   padding:1rem 7.5rem 0rem 8rem;
 
   .contact{
+    width: 70%;
     font-size: 1rem;
     color: white;
     h2{
+      margin-left: 3rem;
       padding-top: 1rem;
       font-size: 2.2em;
+      margin-bottom: 1.5rem;
     }
-    ul{
-      list-style: none;
-      li{
-        padding: 0.5rem;
-        font-size: 1.2em;
-        font-weight: 100;
+    main{
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+      .item{
+        flex-basis: 33%;
+        .img{
+          margin-bottom: 1.3rem;
+          img{
+            background: white;
+            border-radius: 5rem;
+            padding: 0.4rem;
+            width: 4rem;
+          }
+        }
+        p{
+          margin-bottom: 0.5rem;
+        }
       }
+
     }
-  }
+}
   .logo--footer{
     img{
-      height: 16rem;
+      margin-top: 1rem;
+      height: 14rem;
     }
   }
 }
 
 @media screen and (min-width:1400px) {
   footer{
+    h2{
+      margin-left: 5rem;
+    }
     padding: 1rem 15rem;
+  }
+}
+
+@media screen and (max-width:1050px){
+  footer{
+    padding: 1rem 4rem 2rem 4rem;
+    .logo--footer{
+    img{
+      padding-top: 2rem;
+      height: 12rem;
+    }
+  }
   }
 }
 
 @media screen and (max-width:860px){
   footer{
-      height: 11rem;
-    padding: 1rem 2rem;
+    height: 11rem;
+    padding: 1rem 2rem 2rem 2rem;
     .contact{
       font-size: 0.7rem;
       h2{
@@ -48,13 +81,77 @@ footer{
           padding: 0.25rem;
         }
       }
-
     }
       .logo--footer{
     img{
+      padding-top: 2rem;
       height: 9rem;
     }
   }
   }
 }
 
+@media screen and (max-width:860px){
+  footer{
+    height: 11rem;
+    padding: 1rem 2rem 2rem 2rem;
+    .contact{
+      font-size: 0.7rem;
+      h2{
+        font-size: 1.3rem;
+      }
+      ul{
+        li{
+          padding: 0.25rem;
+        }
+      }
+    }
+      .logo--footer{
+    img{
+      padding-top: 2rem;
+      height: 9rem;
+    }
+  }
+  }
+}
+@media screen and (max-width:700px){
+  footer{
+    height: 11rem;
+    padding: 1rem 2rem 2rem 1rem;
+    .contact{
+      font-size: 0.7rem;
+      h2{
+        font-size: 1.3rem;
+      }
+        main{
+        text-align: center;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+
+          .item{
+            margin-bottom: 0.5rem;
+            *flex-basis: 33%;
+            display: flex;
+            align-items: center;
+            .img{
+              margin-bottom: 0rem;
+              margin-right: 1rem;
+              img{
+                width: 1.1rem;
+              }
+            }
+            p{
+              position: relative;
+              width: 10rem;
+              font-size: 0.8rem;
+              margin-bottom: 0.5rem;
+            }
+          }
+
+        }
+    }
+  }
+}
