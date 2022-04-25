@@ -18,6 +18,7 @@ import { ServiceThreComponent } from './pages/some-services/service-thre/service
 import { HomeServiceComponent } from './pages/home/home-service/home-service.component';
 import { HomeFlotaComponent } from './pages/home/home-flota/home-flota.component';
 import { HomeCustomersComponent } from './pages/home/home-customers/home-customers.component';
+import { HomeBannerComponent } from './pages/home/home-banner/home-banner.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { HomeCustomersComponent } from './pages/home/home-customers/home-custome
     HomeServiceComponent,
     HomeFlotaComponent,
     HomeCustomersComponent,
+    HomeBannerComponent,
   ],
   imports: [
     BrowserModule,
