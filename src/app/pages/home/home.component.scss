@@ -102,46 +102,6 @@
     margin: 0 6rem;
   }
 }
-.flota{
-  background-image: url(../../../assets/images/logo-flota.svg);
-  background-repeat: no-repeat;
-  background-size: 50%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 10rem 0;
-  h2{
-    font-size: 3.75rem;
-    font-weight: 600;
-  }
-  p{
-    font-size: 1.2rem;
-    margin-top: 2.5rem;
-    flex-basis: 50%;
-    width: 60%;
-  }
-  img{
-    width: 60rem;
-  }
-  button{
-          cursor: pointer;
-      margin-right: 21%;
-      width: 7rem;
-      height: 2.5rem;
-      font-size: 1.1rem;
-      border: 3px solid #c26315;
-      background: transparent;
-      color: black;
-      border-radius: 10px;
-      margin-left: 75%;
-  }
-      button:hover{
-      color: #b47319;
-      border:3px solid #db8710;
-    }
-}
 
 @media screen and (min-width:1400px) {
   .banner--content{

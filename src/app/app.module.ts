@@ -16,6 +16,8 @@ import { ServiceOneComponent } from './pages/some-services/service-one/service-o
 import { ServiceTwoComponent } from './pages/some-services/service-two/service-two.component';
 import { ServiceThreComponent } from './pages/some-services/service-thre/service-thre.component';
 import { HomeServiceComponent } from './pages/home/home-service/home-service.component';
+import { HomeFlotaComponent } from './pages/home/home-flota/home-flota.component';
+import { HomeCustomersComponent } from './pages/home/home-customers/home-customers.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +33,8 @@ import { HomeServiceComponent } from './pages/home/home-service/home-service.com
     ServiceTwoComponent,
     ServiceThreComponent,
     HomeServiceComponent,
+    HomeFlotaComponent,
+    HomeCustomersComponent,
   ],
   imports: [
     BrowserModule,
