@@ -35,5 +35,5 @@ jobs:
         username: ${{ secrets.user_deploy }}
         password: ${{ secrets.pwd_deploy }}
         local-dir: ./dist/transport/
-        server-dir: /cflogistic.codesociety.dev/
+        server-dir: /cfoperadorlogistico.com.pe/
         port: 21
