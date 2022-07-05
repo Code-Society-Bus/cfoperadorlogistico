@@ -22,7 +22,6 @@ jobs:
     - name: 🔨 Build Project
       id: builddeploy
       run: |
-        npm cache clean --force
         npm install
         npm run build
       env:
