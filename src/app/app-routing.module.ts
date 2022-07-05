@@ -10,47 +10,46 @@ import { TrackingComponent } from './pages/tracking/tracking.component';
 import { ServiceOneComponent } from './pages/some-services/service-one/service-one.component';
 
 const routes: Routes = [
-
   {
     path: '',
-    component: HomeComponent
+    component: HomeComponent,
   },
   {
     path: 'home',
-    component: HomeComponent
+    component: HomeComponent,
   },
   {
     path: 'contact',
-    component: ContactComponent
+    component: ContactComponent,
   },
   {
     path: 'about',
-    component: AboutComponent
+    component: AboutComponent,
   },
   {
     path: 'fleet',
-    component: FleetComponent
+    component: FleetComponent,
   },
   {
     path: 'tracking',
-    component: TrackingComponent
+    component: TrackingComponent,
   },
   {
     path: 'service1',
-    component: ServiceOneComponent
+    component: ServiceOneComponent,
   },
   {
     path: 'service2',
-    component: ServiceTwoComponent
+    component: ServiceTwoComponent,
   },
   {
     path: 'service3',
-    component: ServiceThreComponent
+    component: ServiceThreComponent,
   },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
